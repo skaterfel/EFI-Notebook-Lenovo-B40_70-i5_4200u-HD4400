@@ -1,6 +1,6 @@
 # Notebook Lenovo B40-70 + i5 4200u + HD4400
 	
-![about-12 3 1](https://raw.githubusercontent.com/skaterfel/EFI-Notebook-Lenovo-B40_70-i5_4200u-HD4400/refs/heads/main/Infos/about-this-mac.png)
+![about](https://raw.githubusercontent.com/skaterfel/EFI-Notebook-Lenovo-B40_70-i5_4200u-HD4400/refs/heads/main/Infos/about-this-mac.png)
 	
 
 **Latest working macOS**: 12.7.4

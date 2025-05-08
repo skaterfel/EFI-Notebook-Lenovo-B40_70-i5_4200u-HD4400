@@ -1,20 +1,22 @@
-# Gigabyte Z690 Aorus Elite AX + i9 12900K + RX 6900 XT + Fenvi BCM94360NG
-
+# Notebook Lenovo B40-70 + i5 4200u + HD4400
+	
+	<!--
 ![about-12 3 1](https://user-images.githubusercontent.com/23700365/161353027-9aaeddf5-7457-49a8-b322-4e99ab94c679.png)
+	-->
 
-**Latest working macOS**: 12.4
+**Latest working macOS**: 12.7.4
 <br>
-**Current OpenCore**: 0.8.2
+**Current OpenCore**: 1.0.0
 
 ## Complete hardware specs
-- Intel i9 12900K @ Stock (All cores (P+E+HT) activated)
-- Gigabyte Z690 Aorus Elite AX @ BIOS F6a
-- RX 6900 XT - Nitro+ Special Edition (Sapphire - PN: PN 11308-03-20G)
-- 4x 16Gb DDR4 4133Mhz XPG D50 with XMP Enabled
+- DualCore Intel Core i5-4200U | 4th Haswell 
+- Lenovo B40-70 - [BIOS 9DCN34WW(V3.04)
+- Intel(R) HD Graphics 4400 (1 GB) - 8086/0A16
+- 1x 8GB + 1x 4GB DDR3 1600
 - Wifi/BT replaced by Fenvi BCM94360NG - Work OOB
 
 ## What works
-- macOS Big Sur, macOS Catalina and macOS Monterey
+- macOS Monterey (no test in macOS Big Sur, macOS Catalina and )
 - Audio
 - HDMI/DP (in dGPU - Works OOB)
 - All USB ports
@@ -22,24 +24,35 @@
 - Temperature monitoring for everything except GPU
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
+- Sleep
+- TrackPad: Cursor movement
+
+
 
 ## What doesn't work
-- Sleep? Never got the chance to test it, my hackintosh is up 24/7
+- Wifi and BlueTooth (I no have Fenvi chip for tests)
+- TrackPad: Gestures, Clicks
+
 
 ## Kexts used:
 - AppleALC.kext
 - Lilu.kext
-- LucyRTL8125Ethernet.kext
-- SMCSuperIO.kext
+- SMCSuperIO.kext	
 - SMCProcessor.kext
 - USBMap.kext
 - VirtualSMC.kext
 - WhateverGreen.kext
+- BrightnessKeys.kext
+- CpuTscSync.kext
+- ECEnabler.kext
+- FeatureUnlock.kext
+- RealtekRTL8111.kext
+- RestrictEvents.kext
+- USBWakeFixup.kext
+- VoodooInput.kext
+- VoodooPS2Controller.kext
+- VoodooSMBus.kext
 
-## Geekbench Results:
-- https://browser.geekbench.com/v5/cpu/11647562
-- https://browser.geekbench.com/v5/compute/3921810
-- https://browser.geekbench.com/v5/compute/3921809
 
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
@@ -47,4 +60,4 @@
 - tonymacx86.com - in special @etorix and @CaseySJ
 
 ## Discord - Universo Hackintosh
-- [Access Discord](https://discord.universohackintosh.com.br)
+- [Access Discord](https://discordapp.com/users/skaterfel)
